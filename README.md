@@ -44,6 +44,8 @@ GsonConverter: JSON verisini Java/Kotlin objelerine dönüştürmek için kullan
 
 Coroutines: Asenkron işlemler için kullanıldı.
 
+Google Maps ve Google Location kütüphaneleri gelen gps verilerinin anlık haritada gösterimini sağlamak için kullanıldı.
+
 Backend:
 
 Spring Boot: Backend uygulaması için kullanıldı.
@@ -53,5 +55,7 @@ PostgreSQL Driver: Veritabanı bağlantısı için eklendi (Ancak projede verita
 Spring Starter Web: Web uygulaması için temel yapı sağladı.
 
 Projeyi iki dosya halinde bulabilirsiniz: Önce backend kısmını, ardından frontend kısmını çalıştırın. Veriler, Dashboard Fragment'inde yer almaktadır.
+
+
 
 ######Veriler, Coroutines ile birlikte her 3 saniyede bir backend tarafından çekilmektedir.######
